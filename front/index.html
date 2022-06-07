@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQS 3D Print</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="stylesheet" type="text/css" href="./assets/scripts/slick/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/scripts/slick/slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <img src="./assets/images/logo.png" alt="logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Porfólio</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <img src="./assets/images/blur.svg" class="blur">
+            <img src="./assets/images/hand.png" class="hand">
+            <div class="banner_content">
+                <div class="banner_texts">
+                    <h1 class="banner_title">IQS 3D Print</h1>
+                    <ul>
+                        <li><ion-icon name="gift-outline"></ion-icon> Biodegradável e reciclável</li>
+                        <li><ion-icon name="cube-outline"></ion-icon> Sua ideia tridimensional</li>
+                        <li><ion-icon name="walk-outline"></ion-icon> Action Figures</li>
+                        <li><ion-icon name="extension-puzzle-outline"></ion-icon> Peças sob medida</li>
+                        <li><ion-icon name="gift-outline"></ion-icon> Acessórios</li>
+                        <li><ion-icon name="airplane-outline"></ion-icon> Envio para todo Brasil</li>
+                    </ul>
+                </div>
+                <img src="./assets/images/earth.png" alt="earth" class="earth">
+                <img src="./assets/images/groot.png" alt="groot" class="groot">
+            </div>
+        </section>
+        <section class="about">
+            <div class="about_content">
+                <h1 class="about_title">Sobre</h1>
+                <article class="about_text">A IQS 3D Print é uma empresa brasileira,
+                    especializada em Prototipagem rápida mais
+                    conhecida como impressões 3D.
+                    A IQS fabrica artigos personalizados sob
+                    medida enviando para todo Brasil, além de
+                    prezar também pela utilização de
+                    recursos biodegradáveis e recicláveis para
+                    suas produções.</article>
+            </div>
+            <img src="./assets/images/car.png" class="car">
+            <img src="./assets/images/pokemon.png" class="pokemon">
+        </section>
+        <section class="portfolio">
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#14171B" fill-opacity="1" d="M0,256L60,234.7C120,213,240,171,360,154.7C480,139,600,149,720,176C840,203,960,245,1080,234.7C1200,224,1320,160,1380,128L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+            </svg>
+            <h1 class="portfolio_title">Portfolio</h1>
+            <div class="portfolio_carousel">
+                <img src="./assets/images/logo.png" class="carousel_img"/>
+                <img src="./assets/images/logo.png" class="carousel_img"/>
+                <img src="./assets/images/logo.png" class="carousel_img"/>
+                <img src="./assets/images/logo.png" class="carousel_img"/>
+                <img src="./assets/images/logo.png" class="carousel_img"/>
+                <img src="./assets/images/logo.png" class="carousel_img"/>
+                <img src="./assets/images/logo.png" class="carousel_img"/>
+                <img src="./assets/images/logo.png" class="carousel_img"/>
+                <img src="./assets/images/logo.png" class="carousel_img"/>
+                <img src="./assets/images/logo.png" class="carousel_img"/>
+                <img src="./assets/images/logo.png" class="carousel_img"/>
+                <img src="./assets/images/logo.png" class="carousel_img"/>
+            </div>
+            <h1 class="view_more">Veja mais em nossas redes sociais</h1>
+            <div class="portfolio_icons">
+                <div class="icons_box">
+                    <ion-icon class="media_icon" name="logo-whatsapp"></ion-icon>
+                    <p class="media_text">(27) 9 9999-9999</p>
+                </div>
+                <div class="icons_box">
+                    <ion-icon class="media_icon" name="logo-instagram"></ion-icon>
+                    <p class="media_text">(27) 9 9999-9999</p>
+                </div>
+            </div>
+        </section>
+    </main>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="./assets/scripts/slick/slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.portfolio_carousel').slick({
+            infinite: true,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+        });
+    });
+</script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
